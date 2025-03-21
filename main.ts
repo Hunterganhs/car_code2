@@ -34,7 +34,7 @@ input.onButtonPressed(Button.A, function () {
     cuteBot.motors(100, -100)
     basic.pause(5000)
     cuteBot.stopcar()
-    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Funk), music.PlaybackMode.InBackground)
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Nyan), music.PlaybackMode.InBackground)
     strip.showColor(neopixel.colors(NeoPixelColors.Indigo))
     strip.clear()
 })
